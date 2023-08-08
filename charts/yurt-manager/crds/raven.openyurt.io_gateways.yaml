@@ -54,10 +54,14 @@ spec:
                       additionalProperties:
                         type: string
                       type: object
+                    natType:
+                      type: string
                     nodeName:
                       description: NodeName is the Node hosting this endpoint.
                       type: string
                     publicIP:
+                      type: string
+                    publicPort:
                       type: string
                     underNAT:
                       type: boolean
@@ -127,10 +131,14 @@ spec:
                     additionalProperties:
                       type: string
                     type: object
+                  natType:
+                    type: string
                   nodeName:
                     description: NodeName is the Node hosting this endpoint.
                     type: string
                   publicIP:
+                    type: string
+                  publicPort:
                     type: string
                   underNAT:
                     type: boolean
